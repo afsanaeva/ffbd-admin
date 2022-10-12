@@ -132,9 +132,9 @@ export default function BasicTextFields() {
         </div>
         <br />
 
-        <div className="d-flex justify-content-between mt-5">
+        <div className="d-flex justify-content-between mt-5 pt-5">
           <div/>
-          <div className="d-flex justify-content-between gap-2 mt-5">
+          <div className="d-flex justify-content-between gap-2 mt-5 pt-5">
           <Button type="button" className={style.cancelBtn}>
               Cancel
             </Button>
