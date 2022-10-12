@@ -17,7 +17,7 @@ export default function MediaControlCard() {
             <Box sx={{ display: 'flex', justifyContent: 'space-between'}}>
                 <Card className={style.card} sx={{ display: 'flex', }}>
                     <Typography component="div" variant="h5">
-                        Brand Logo*
+                        <b>Brand Logo*</b>
                     </Typography>
 
                     <CardContent>
@@ -34,7 +34,7 @@ export default function MediaControlCard() {
                 </Card>
                 <Card className={style.card} sx={{ display: 'flex', }}>
                     <Typography component="div" variant="h5">
-                        Cover Image
+                        <b>Cover Image</b>
                     </Typography>
 
                     <CardContent>
